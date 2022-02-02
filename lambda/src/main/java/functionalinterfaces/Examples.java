@@ -44,6 +44,19 @@ public class Examples {
 
 
 
+        Predicate<Integer> pred = (p) -> p%2 ==0 ? true : false;
+        System.out.println(pred.test(10));
+
+        BiConsumer<Integer,String> bn = (x,y) -> System.out.println(x+y);
+        bn.accept(5,"apple");
+
+
+
+
+
+
+
+
 
 
 
