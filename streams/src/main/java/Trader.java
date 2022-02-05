@@ -1,7 +1,8 @@
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-@Data@AllArgsConstructor
+@Data
+@AllArgsConstructor
 public class Trader {
 
     private String name;
