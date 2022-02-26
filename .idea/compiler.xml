@@ -8,8 +8,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="oop-review" />
         <module name="lambda" />
+        <module name="oop-review" />
         <module name="generics" />
         <module name="streams" />
       </profile>
